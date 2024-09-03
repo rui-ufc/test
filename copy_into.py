@@ -5,8 +5,7 @@ import sqlalchemy
 import sys
 import os
 
-input_sql = sys.argv[1]
-stage_name = sys.argv[2]
+stage_names = sys.argv[2]
 
 #引数のファイル名の存在チェック
 if not os.path.exists(input_sql):
